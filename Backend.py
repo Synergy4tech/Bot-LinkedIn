@@ -2,6 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys 
 import time 
 
+
+
 class Iniciar: 
     def __init__(self, email, senha, publico_alvo, mensagem): 
         self.driver = webdriver.Chrome() 
